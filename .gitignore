@@ -1,0 +1,4 @@
+.godot/
+rust/debug/
+rust/target/
+rust/**/*.rs.bk
