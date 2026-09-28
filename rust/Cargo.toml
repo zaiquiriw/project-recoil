@@ -5,6 +5,14 @@ edition = "2024"
 
 [dependencies]
 godot = "0.5.5"
+spade = "2.15.1"
 
 [lib]
-crate-type = ["cdylib"]
+# This is found by default but I am just adding a test lib while I mess with rust and befoerI learn how o make multi file libs
+name = "testlib"
+path = "src/spade.rs"
+# crate-type = ["cdylib"]
+
+[[bin]]
+name = "mybind"
+path = "src/bin.rs"
