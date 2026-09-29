@@ -42,3 +42,5 @@ impl ISprite2D for Player {
         // therefore we convert 'self.angular_speed * delta' which is a f64 to a f32
     }
 }
+
+pub fn test() {}

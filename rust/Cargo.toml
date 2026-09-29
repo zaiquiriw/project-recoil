@@ -1,5 +1,5 @@
 [package]
-name = "project-recoil"
+name = "precoil"
 version = "0.1.0"
 edition = "2024"
 
@@ -8,11 +8,5 @@ godot = "0.5.5"
 spade = "2.15.1"
 
 [lib]
-# This is found by default but I am just adding a test lib while I mess with rust and befoerI learn how o make multi file libs
-name = "testlib"
-path = "src/spade.rs"
-# crate-type = ["cdylib"]
+crate-type = ["cdylib"]
 
-[[bin]]
-name = "mybind"
-path = "src/bin.rs"
