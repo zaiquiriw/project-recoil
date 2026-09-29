@@ -2,3 +2,4 @@
 rust/debug/
 rust/target/
 rust/**/*.rs.bk
+Cargo.lock
